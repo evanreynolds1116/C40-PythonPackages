@@ -1,6 +1,6 @@
+from ..appliance import Appliance
 
-
-class Washer(Appliance):
+def Washer(Appliance):
 
     def __init__(color, heat_method):
         super.__init__(color, heat_method)
